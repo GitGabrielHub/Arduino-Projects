@@ -38,7 +38,7 @@ void loop() {
   }
 
   else if(dist > 100 && condictionOn){
-    irsend.sendNEC(0x2FD48B7, 32);
+    irsend.sendNEC(0xE0E040BF, 32);
     condictionOn = false;
     condictionOff = true;
     delay(7000);
